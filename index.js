@@ -68,7 +68,7 @@ function displayData(data) {
                 hours += 1
             }
             hours+=hour
-            if(hours<24){
+            if(hours<0){
                 hours += 24
             }
         }
